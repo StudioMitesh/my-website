@@ -1,0 +1,49 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #3a1c71, #d76d77, #ffaf7b);
+  color: white;
+  text-align: center;
+}
+
+.intro-container {
+  text-align: center;
+  color: #fff;
+}
+
+.intro-name {
+  font-size: 4em;
+  animation: slideIn 1.5s ease-out;
+}
+
+.intro-tagline {
+  font-size: 1.5em;
+  margin-top: 10px;
+  animation: fadeIn 2s ease-in-out 1.5s;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-100px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.bouncing-ball {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #ff6b6b;
+  border-radius: 50%;
+  animation: bounce 4s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-200px); }
+}

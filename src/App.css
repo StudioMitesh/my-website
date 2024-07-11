@@ -32,6 +32,10 @@ header p {
   margin: 5px 0;
 }
 
+.content {
+  padding: 20px;
+}
+
 .social-links a {
   color: white;
   margin: 0 10px;
