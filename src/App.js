@@ -15,11 +15,9 @@ function App() {
     <div className="App">
       <Header />
       <Intro />
-      <main>
-        <About />
-        <Projects />
-        <Footer />
-      </main>
+      <About />
+      <Projects />
+      <Footer />
     </div>
   );
 }

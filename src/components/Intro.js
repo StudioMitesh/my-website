@@ -3,11 +3,12 @@ import './intro.css';
 
 const Intro = () => {
   return (
-    <div className="intro-container">
-      <div className="bouncing-ball"></div>
-      <h1 className="intro-name">Mitesh Shah</h1>
-      <p className="intro-tagline">Aspiring Software Engineer and CS Student at Georgia Tech</p>
-    </div>
+    <section id="intro" className="intro-section">
+      <div className="intro-content">
+        <h1 className="intro-title">Welcome to My Portfolio</h1>
+        <p className="intro-tagline">Aspiring Software Engineer and CS Student at Georgia Tech</p>
+      </div>
+    </section>
   );
 };
 

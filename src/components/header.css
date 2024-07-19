@@ -1,34 +1,51 @@
 .header {
-    width: 100%;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .header-title {
-    font-size: 1.5em;
-    margin: 0;
-  }
-  
-  .header-nav {
-    display: flex;
-    gap: 20px; /* Space between nav items */
-  }
-  
-  .header-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1em;
-    transition: color 0.3s;
-  }
-  
-  .header-nav a:hover {
-    color: #ff6b6b; /* Change this to your desired hover color */
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header-background-color);
+  color: var(--text-color);
+  padding: 10px 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header-right a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.header-right a:hover {
+  color: #0073e6;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+nav a {
+  color: var(--text-color);
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+}
