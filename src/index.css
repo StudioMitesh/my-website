@@ -1,9 +1,23 @@
+:root {
+  --primary-color: #007bff;
+  --background-color: #f8f9fa;
+  --header-background-color: #343a40;
+  --text-color: #ffffff;
+  --accent-color: #17a2b8;
+}
+
+/* tailwind css installation*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  margin: 0;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
-  color: #333;
 }
 
 header {
@@ -30,6 +44,10 @@ header p {
   display: block;
   color: white;
   margin: 5px 0;
+}
+
+.content {
+  padding: 20px;
 }
 
 .social-links a {

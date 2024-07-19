@@ -7,15 +7,15 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-left">
-        <img src={profilePic} alt="Profile" className="profile-picture" />
-        <h1>Mitesh M. Shah</h1>
+        <a href="#intro">
+          <img src={profilePic} alt="Profile" className="profile-picture" />
+        </a>
+        <h1 className="header-title">Mitesh M. Shah</h1>
       </div>
-      <div className="header-content">
-        <nav>
-          <a href="#intro">Introduction</a>
-          <a href="#projects">Projects</a>
-        </nav>
-      </div>
+      <nav className="header-content">
+        <a href="#intro">Introduction</a>
+        <a href="#projects">Projects</a>
+      </nav>
       <div className="header-right">
         <div className="social-links">
           <a href="https://github.com/StudioMitesh" target="_blank" rel="noopener noreferrer">
