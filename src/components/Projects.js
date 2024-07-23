@@ -17,7 +17,7 @@ function Projects() {
         <p>Generated SVD and K-Means clustering algorithms to improve trading outlooks.</p>
       </div>
       <div className="project-item">
-        <h3>Hyper-Localized Analysis of NYC’s Lead Poisoning Epidemic</h3>
+        <h3>Hyper-Localized Analysis of NYC's Lead Poisoning Epidemic</h3>
         <p>Created a 97% accurate PCA for targeted health initiatives.</p>
       </div>
       <div className="project-item">

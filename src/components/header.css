@@ -9,7 +9,7 @@
   width: 100%;
   top: 0;
   z-index: 1000;
-  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .header-left {
@@ -30,9 +30,9 @@
 }
 
 .header-content {
-  flex-grow: 1;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
 }
 
 .header-content a {
@@ -70,7 +70,7 @@
 
 @media (max-width: 768px) {
   .header-content a {
-    margin: 0 10px;
+    margin: 0 5px;
   }
   .header-title {
     font-size: 1em;
