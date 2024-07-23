@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import profilePic from './profile.jpg';
+import profilePic from './assets/profile.jpg';
 
 const Header = () => {
   return (

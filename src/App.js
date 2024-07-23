@@ -9,19 +9,18 @@ import Projects from './components/Projects';
 //import SkillsAwards from './components/SkillsAwards';
 //import Contact from './components/Contact';
 import Footer from './components/Footer';
+import './index.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header />
-      <div className="content">
-        <Intro />
-        <About />
-        <Projects />
-        <Footer />
-      </div>
+      <Intro />
+      <About />
+      <Projects />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;

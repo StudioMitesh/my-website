@@ -84,3 +84,42 @@
 .content {
   padding-top: 65px;
 }
+
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 1.2em;
+  }
+
+  .profile-picture {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header-content a {
+    margin-left: 10px;
+  }
+
+  .social-links a {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 1em;
+  }
+
+  .profile-picture {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header-content a {
+    margin-left: 5px;
+    font-size: 0.9em;
+  }
+
+  .social-links a {
+    margin-left: 3px;
+  }
+}
